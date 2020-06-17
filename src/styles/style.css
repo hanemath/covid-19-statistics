@@ -1,0 +1,66 @@
+/* Pallete 
+Merah : #A30000
+Biru Tua : #004777
+Creme : #EFD28D
+Orange : #FF7700
+Biru Muda : #00AFB5
+*/
+
+/*Pallette for charts
+merah #ED1C24
+putih gading #FDFFFC 
+biru #235789
+kuning #F1D302
+hitam #020100
+*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: 32px auto;
+    overflow: auto;
+    border-top: 2px dashed #A30000;
+    border-bottom: 2px dashed #A30000;
+}
+
+.container {
+    width: 80%;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: inline-flex;
+    background-color: #ffff;
+    position: relative;
+    left: 10%;
+}
+
+.row {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.column-3 {
+    width: 32%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 550px){
+    .container {
+        width: 80%;
+        margin: 20px 0 0 0;
+        display: inline-block;
+        background-color: #ffff;
+        position: relative;
+        left: 9%;
+    }
+}
